@@ -1,10 +1,13 @@
 package com.aesopwow.subsubclipclop.config;
 
+import com.aesopwow.subsubclipclop.domain.alarm.message.RedisSubscriber;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.listener.PatternTopic;
+import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
@@ -27,4 +30,17 @@ public class RedisConfig {
 
         return redisTemplate;
     }
+
+    // pub/sub 메시지 처리용 리스너 컨테이너
+    @Bean
+    public RedisMessageListenerContainer redisMessageListenerContainer(RedisConnectionFactory connectionFactory, RedisSubscriber redisSubscriber) {
+        RedisMessageListenerContainer container = new RedisMessageListenerContainer();
+        container.setConnectionFactory(connectionFactory);
+
+        // alarm 채널 구독 설정
+        container.addMessageListener(redisSubscriber, new PatternTopic("alarm"));
+
+        return container;
+    }
 }
+

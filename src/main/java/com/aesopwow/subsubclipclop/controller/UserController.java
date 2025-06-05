@@ -6,6 +6,7 @@ import com.aesopwow.subsubclipclop.domain.user.dto.UserDeleteRequestDto;
 import com.aesopwow.subsubclipclop.domain.user.dto.UserResponseDTO;
 import com.aesopwow.subsubclipclop.domain.user.dto.UserUpdateRequestDTO;
 import com.aesopwow.subsubclipclop.domain.user.service.UserService;
+import com.aesopwow.subsubclipclop.entity.CustomUserDetails;
 import com.aesopwow.subsubclipclop.entity.User;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -18,6 +19,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -217,4 +219,24 @@ public class UserController {
                 new BaseResponseDto<>(HttpStatus.OK, "유저가 정상적으로 탈퇴 처리되었습니다.")
         );
     }
+
+    @GetMapping("")
+    public ResponseEntity<UserResponseDTO> getOneUserByUserNo (@RequestParam Long userNo) {
+        User user = userService.getOneUserByUserNo(userNo);
+
+        UserResponseDTO userResponseDTO = UserResponseDTO.from(user);
+
+        return ResponseEntity.ok(userResponseDTO);
+    }
+
+//    @GetMapping("")
+//    public ResponseEntity<UserResponseDTO> getOneUser (
+//            @AuthenticationPrincipal CustomUserDetails customUserDetails) {
+//
+//        User user = customUserDetails.getUser();
+//
+//        UserResponseDTO userResponseDTO = UserResponseDTO.from(user);
+//
+//        return ResponseEntity.ok(userResponseDTO);
+//    }
 }
