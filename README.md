@@ -241,6 +241,250 @@ CREATE TABLE `info_column` (
 
 </details>
 
+
+<details>
+<summary><strong>7️⃣ 통합테스트</strong></summary>
+<br />
+
+<details>
+<summary><strong>로그인/회원가입</strong></summary>
+
+<br />
+
+- 회원가입
+  
+   <br />
+   
+ ![회원가입](https://github.com/user-attachments/assets/03a31f1b-19be-48ba-bb6c-b6aa3bcc59c4)
+ 
+<br />
+
+- 회원가입 OTP 재발송
+  
+  <br />
+  
+ ![회원가입 OTP 재발송](https://github.com/user-attachments/assets/71ab77b8-130c-4da4-a2f2-316b3551f589)
+ 
+<br />
+
+- 비밀번호 변경
+  
+  <br />
+  
+ ![비밀번호 변경](https://github.com/user-attachments/assets/bd66f343-8da7-4820-b8df-fe4674ba02a0)
+ 
+<br />
+
+</details>
+
+<details>
+<summary><strong>대시보드</strong></summary><br />
+
+/////여기
+
+</details>
+
+
+<details>
+<summary><strong>세그먼트 분석</strong></summary><br />
+  
+![segment_1](https://github.com/user-attachments/assets/3eeaad42-81ad-4bab-a0f6-18ac2c5d30d6)
+
+  <br />
+  
+![segment_2](https://github.com/user-attachments/assets/898a4ec9-7108-4347-b977-dfdd0e161e84)
+
+  <br />
+  
+![segment_3](https://github.com/user-attachments/assets/ca4b04b0-8c78-4a40-8f4f-f726dfad8881)
+
+<br />
+
+![segment_4](https://github.com/user-attachments/assets/54f70aa0-f416-4433-acbc-92fbdf8d3beb)
+
+
+</details>
+
+<details>
+<summary><strong>코호트 분석 (단일 분석 / 양측 분석)</strong></summary><br />
+
+- 코호트 단일분석
+
+  <br />
+
+
+![cohort_single](https://github.com/user-attachments/assets/b242e784-4cf4-468e-a57f-6e3cea4d5c6a)
+
+<br />
+
+- 코호트 양측분석
+
+ <br />
+
+
+![cohort_double](https://github.com/user-attachments/assets/41a25e58-9cc3-4aaa-90fa-611459dbe075)
+
+<br />
+
+</details>
+
+<details>
+<summary><strong>마이페이지</strong></summary><br />
+
+/////여기
+
+</details>
+
+<details>
+<summary><strong>결제</strong></summary><br />
+
+![payment](https://github.com/user-attachments/assets/6c1f0906-eeef-49e5-8b70-2cb973523c44)
+
+
+</details>
+
+<details>
+<summary><strong>About us</strong></summary><br />
+
+![about_us](https://github.com/user-attachments/assets/fae03767-3f51-45d6-9b22-ad73df185d8e)
+
+
+</details>
+
+<details>
+<summary><strong>Membership</strong></summary><br />
+
+![Membership](https://github.com/user-attachments/assets/ee38251e-29cd-4781-a916-2c304f9ce1de)
+
+
+</details>
+
+<details>
+<summary><strong>How to</strong></summary><br />
+
+/////여기
+
+</details>
+
+<details>
+<summary><strong>BackEnd CI</strong></summary><br />
+
+![be_test3merge](https://github.com/user-attachments/assets/79fc9c3a-1168-4289-a904-d56cf39f7c56)
+
+<br />
+
+![be_test4ci](https://github.com/user-attachments/assets/ff9c725d-e9ee-460a-9d2e-b8ae65bfa3e0)
+
+<br />
+
+</details>
+
+<details>
+<summary><strong>BackEnd CD</strong></summary><br />
+
+![be_test5cd](https://github.com/user-attachments/assets/41360f7d-6e77-4a14-9c1c-995abef754bf)
+
+
+</details>
+
+<details>
+<summary><strong>FrontEnd CI</strong></summary><br />
+
+![fe_test1](https://github.com/user-attachments/assets/7437d6c7-6504-486b-9c56-85a58df4f3f0)
+
+<br />
+
+![fe_test2](https://github.com/user-attachments/assets/18a14a28-194a-46dc-9208-904597fc232f)
+
+<br />
+
+![fe_test3](https://github.com/user-attachments/assets/f4159e59-4ffe-4e62-9d9f-8228542e459e)
+
+
+</details>
+
+<details>
+<summary><strong>FrontEnd CD</strong></summary><br />
+
+![fe_test4](https://github.com/user-attachments/assets/c54b1c0d-aebf-4e84-b075-6750176aef94)
+
+
+</details>
+
+<details>
+<summary><strong>Machine Learning CI</strong></summary><br />
+
+/////여기
+
+</details>
+
+<details>
+<summary><strong>Machine Learning CD</strong></summary><br />
+
+/////여기
+
+</details>
+
+<br /><br />
+
+
+
+
+
+</details>
+
+
+
+
+<details>
+<summary><strong>8️⃣ CI/CD 계획서</strong></summary><br />
+
+<details>
+<summary><strong>BackEnd</strong></summary><br />
+
+![BE 배포 계획서1](https://github.com/user-attachments/assets/90296c6e-5b1b-420c-bd13-d34416e75121)
+![BE 배포 계획서2](https://github.com/user-attachments/assets/ce189fd0-e925-499f-a453-027389f43327)
+![BE 배포 계획서3](https://github.com/user-attachments/assets/04a68471-cf56-4ee0-9c6a-4db1ab3aab8d)
+![BE 배포 계획서4](https://github.com/user-attachments/assets/3cc829f1-de9b-4748-be34-b021fddcc6a4)
+![BE 배포 계획서5](https://github.com/user-attachments/assets/580bfb49-f11f-451d-9ebe-0578d88a483d)
+![BE 배포 계획서6](https://github.com/user-attachments/assets/f938356b-d206-4f35-9a03-2c5c07edde22)
+![BE 배포 계획서7](https://github.com/user-attachments/assets/d23b646e-fbe8-4ed1-9089-6986e4d07929)
+![BE 배포 계획서8](https://github.com/user-attachments/assets/9a988986-6b99-4552-9774-12481dd342f4)
+
+
+</details>
+
+<details>
+<summary><strong>FrontEnd</strong></summary><br />
+
+![FE 배포 계획서1](https://github.com/user-attachments/assets/d5832583-d640-45cb-ac92-762235b47ddd)
+![FE 배포 계획서2](https://github.com/user-attachments/assets/f1ad9435-065f-4f36-b720-d06067156b54)
+![FE 배포 계획서3](https://github.com/user-attachments/assets/36f07251-3111-4b67-adf9-a2051ba7f409)
+![FE 배포 계획서4](https://github.com/user-attachments/assets/e0e037a2-aa61-4118-b02d-50a7246c7a39)
+
+
+</details>
+
+<details>
+<summary><strong>MachineLearning</strong></summary><br />
+
+![ML 배포 계획서1](https://github.com/user-attachments/assets/92634d06-8fd3-487f-9766-9ceadca9e5cc)
+![ML 배포 계획서2](https://github.com/user-attachments/assets/43a067a3-6652-437f-a663-7f34f5bcf37d)
+![ML 배포 계획서3](https://github.com/user-attachments/assets/f08ae7af-8051-423d-b077-8c71ac21d4f2)
+![ML 배포 계획서4](https://github.com/user-attachments/assets/57566b85-56fc-4017-bad1-3950e75588ce)
+
+
+</details>
+
+
+<details>
+<summary><strong>AWS</strong></summary><br />
+
+![AWS 이용 항목](https://github.com/user-attachments/assets/8a1c273d-690c-45be-9491-2f8e1d4399aa)
+
+
+</details></details> <br /><br />
+
 ### 🔐 정책 및 가이드
 <details>
 <summary><strong> Git 브랜치 전략</strong></summary>
